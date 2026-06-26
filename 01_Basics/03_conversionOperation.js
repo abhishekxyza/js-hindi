@@ -59,3 +59,54 @@ let someNumber1=33
 let stringNumber=String(someNumber1)
 console.log(typeof stringNumber);
 console.log(stringNumber);
+
+/***************************operations*******************************/
+
+let num1=7
+let num2="7"
+console.log(num1+num2);
+console.log(num1-num2);
+console.log(num1*num2);
+console.log(num1/num2);
+
+let string1="33"
+let string2="22"
+console.log(string1+string2);
+console.log(string1-string2);
+console.log(string1*string2);
+console.log(string1/string2);
+
+let string3= "abhishek"
+let string4= "Sharma"
+let string5= string3 + string4
+console.log(string5);
+
+let string6= "33"
+let number= 2
+let string8= string6 + number+2
+// console.log(string8);
+// console.log(3+2+"Abhishek");
+// console.log("Abhishek"+3+2);
+// cnsole.log(3+2+"Abhishek"+3+2);
+// console.log(2+2);
+//console.log((23+9)*5%10);
+
+/**console.log(true+true);
+console.log(true+false);
+console.log(false+false);
+console.log(+2);
+console.log(+"2");
+*/
+//let num1, num2, num3
+//num1=num2=num3=2
+
+
+//console.log(num1+num2*num3);
+//console.log((num1+num2)*num3);
+
+let gameCounter=100
+gameCounter++;
+//++gameCounter;
+console.log(gameCounter);
+
+//console.log(gameCounter++);
