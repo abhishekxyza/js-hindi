@@ -64,3 +64,28 @@ const Error:error = new Error("Error message"); */
  }
  //how to check data type of variable
  console.log(typeof myFunction); // function
+
+
+  //  (stack primitive) ,heap (non primitive)
+
+  let myYoutubename = "abhisheksharma"
+  let anothername = myYoutubename
+  anothername = "Abhi@123"
+
+  console.log(myYoutubename);
+  console.log(anothername);
+
+
+ let useOne = {
+   email : "as7059273@gmail.com", 
+   upi : "abhi@ybl"
+ }
+
+ let userTwo = userOne
+
+
+ userTwo.email = "AbhishekSHARMA@google.com"
+
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
