@@ -5,7 +5,7 @@ const repoCount = 50
 //console.log(`Hello ${name} you have ${repoCount} repo`);
 
 // string declaration new method
-const gameName = new String("Abhishek-Sharma"); 
+const gameName = new String("Abhishek-Sharma-Abhi"); 
 //console.log(gameName[0]); // A
 //console.log(gameName.__proto__);
 
